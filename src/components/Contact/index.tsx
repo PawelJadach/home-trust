@@ -33,15 +33,29 @@ const Contact = () => {
 	];
 
 	return (
-		<div className="w-full bg-dark py-[96px] mt-24">
+		<div className="w-full bg-dark py-[96px] mt-24" id="contact">
 			<div className="container flex items-center flex-col gap-4">
-				<h2 className="text-light">Kontakt</h2>
-				<div className="w-[170px] h-[6px] bg-primary rounded-xl" />
-				<p className="text-light">
+				<h2 className="text-light" data-aos="fade-right">
+					Kontakt
+				</h2>
+				<div
+					className="w-[170px] h-[6px] bg-primary rounded-xl"
+					data-aos="fade-right"
+					data-aos-delay="200"
+				/>
+				<p
+					className="text-light"
+					data-aos="fade-right"
+					data-aos-delay="400"
+				>
 					Odpowiemy tak szybko jak to możliwe
 				</p>
 				<div className="flex flex-col md:flex-row gap-16 md:gap-[120px] mt-10">
-					<div className="flex items-center justify-center">
+					<div
+						className="flex items-center justify-center"
+						data-aos="fade-right"
+						data-aos-delay="600"
+					>
 						<Image
 							src="/logo-footer.png"
 							width={253}
@@ -50,7 +64,11 @@ const Contact = () => {
 						/>
 					</div>
 					<div className="space-y-4">
-						<div className="flex items-center gap-4">
+						<div
+							className="flex items-center gap-4"
+							data-aos="fade-left"
+							data-aos-delay="600"
+						>
 							<PhoneIcon />
 							<div>
 								<p className="text-light">
@@ -61,7 +79,11 @@ const Contact = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex items-center gap-4">
+						<div
+							className="flex items-center gap-4"
+							data-aos="fade-left"
+							data-aos-delay="800"
+						>
 							<PlaceIcon />
 							<div>
 								<p className="text-light">50-033 Wrocław</p>
@@ -70,7 +92,11 @@ const Contact = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex items-center gap-4">
+						<div
+							className="flex items-center gap-4"
+							data-aos="fade-left"
+							data-aos-delay="1000"
+						>
 							<ClockIcon />
 							<div>
 								<p className="text-light">

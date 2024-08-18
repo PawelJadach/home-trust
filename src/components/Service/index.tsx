@@ -31,15 +31,29 @@ const Service = () => {
 	];
 
 	return (
-		<div className="w-full bg-secondary py-[96px] my-24">
+		<div className="w-full bg-secondary py-[96px] my-24" id="service">
 			<div className="container flex items-center flex-col gap-4">
-				<h2 className="text-light">W czym możemy Ci pomóc</h2>
-				<div className="w-[170px] h-[6px] bg-primary rounded-xl" />
-				<p className="text-light">Zostaw nam swoje problemy</p>
+				<h2 className="text-light" data-aos="fade-right">
+					W czym możemy Ci pomóc
+				</h2>
+				<div
+					className="w-[170px] h-[6px] bg-primary rounded-xl"
+					data-aos="fade-right"
+					data-aos-delay="200"
+				/>
+				<p
+					className="text-light"
+					data-aos="fade-right"
+					data-aos-delay="400"
+				>
+					Zostaw nam swoje problemy
+				</p>
 				<div className="flex flex-col md:flex-row gap-[60px] mt-10">
 					<div className="md:w-1/2 flex flex-col items-baseline gap-6">
-						{data.map(({ id, title }) => (
+						{data.map(({ id, title }, index) => (
 							<button
+								data-aos="fade-right"
+								data-aos-delay={index * 200}
 								key={id}
 								onClick={() => handleClick(id)}
 								className={cn(
@@ -51,7 +65,11 @@ const Service = () => {
 							</button>
 						))}
 					</div>
-					<div className="md:w-1/2">
+					<div
+						className="md:w-1/2"
+						data-aos="fade-left"
+						data-aos-delay="200"
+					>
 						{data.map(({ id, content }) => (
 							<div
 								key={id}

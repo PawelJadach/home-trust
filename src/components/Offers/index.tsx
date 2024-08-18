@@ -1,17 +1,24 @@
 import React from "react";
-import Image from "next/image";
 import { AreaIcon, BedIcon } from "../ui/Icons";
-
 const Offers = () => {
 	return (
-		<div className="container mt-[96px]">
+		<div className="container mt-[96px]" id="offer">
 			<div className="space-y-5 flex items-center flex-col mb-16">
-				<h2>Nasze najnowsze oferty</h2>
-				<div className="w-[170px] h-[6px] bg-secondary rounded-xl" />
-				<p>Znajdź swoją wymarzoną nieruchomość</p>
+				<h2 data-aos="fade-right">Nasze najnowsze oferty</h2>
+				<div
+					className="w-[170px] h-[6px] bg-secondary rounded-xl"
+					data-aos="fade-right"
+					data-aos-delay="200"
+				/>
+				<p data-aos="fade-right" data-aos-delay="400">
+					Znajdź swoją wymarzoną nieruchomość
+				</p>
 			</div>
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[40px]">
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-no-repeat bg-center" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -34,7 +41,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="100"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -57,7 +68,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="200"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -80,7 +95,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="300"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -103,7 +122,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="400"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -126,7 +149,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="500"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -149,7 +176,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="600"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -172,7 +203,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="700"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
@@ -195,7 +230,11 @@ const Offers = () => {
 						</div>
 					</div>
 				</div>
-				<div className="rounded-lg shadow-lg overflow-hidden">
+				<div
+					className="rounded-lg shadow-lg overflow-hidden"
+					data-aos="zoom-in"
+					data-aos-delay="800"
+				>
 					<div className="w-full h-[225px] bg-[url('/offer.png')] bg-cover bg-center bg-no-repeat" />
 					<div className="p-5 space-y-3">
 						<p className="text-dark">
