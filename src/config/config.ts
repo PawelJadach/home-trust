@@ -10,9 +10,9 @@ type Config = {
 export const config: Config = {
 	metadata: {
 		root: {
-			title: "Pixel Blaze starter",
-			description: "Custom Websites Crafted Just for You",
-			metadataBase: new URL("https://pixel-blaze.com/"),
+			title: "Home Trust",
+			description: "Kup, sprzedaj lub wynajmij nieruchomość",
+			metadataBase: new URL("https://home-trust.vercel.app/"),
 			openGraph: {
 				images: "/opengraph-image.png",
 			},

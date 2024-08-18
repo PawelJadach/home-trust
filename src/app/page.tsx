@@ -1,36 +1,21 @@
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Hero from "@/components/Hero";
+import Offers from "@/components/Offers";
+import Service from "@/components/Service";
+import Team from "@/components/Team";
+import Testimonials from "@/components/Testimonials";
+
 export default function Home() {
 	return (
-		<main className="container">
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
+		<main>
+			<Hero />
+			<About />
+			<Offers />
+			<Service />
+			<Testimonials />
+			<Team />
+			<Contact />
 		</main>
 	);
 }

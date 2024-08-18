@@ -7,8 +7,7 @@
 	h2,
 	h3,
 	h4 {
-		line-height: 1;
-		letter-spacing: -0.4px;
+		letter-spacing: -1%;
 		@apply font-bold text-dark;
 	}
 
@@ -17,18 +16,22 @@
 	}
 
 	h2 {
-		@apply text-2xl md:text-5xl;
-	}
-
-	h3 {
 		@apply text-2xl md:text-4xl;
 	}
 
-	h4 {
+	h3 {
 		@apply text-xl md:text-3xl;
+	}
+
+	h4 {
+		@apply text-xl md:text-2xl;
 	}
 
 	p {
 		@apply text-base text-dark;
+	}
+
+	.shadow-main {
+		box-shadow: 3px 0px 9px 0px rgba(9, 12, 8, 20%);
 	}
 }

@@ -19,9 +19,9 @@ export default function NavLink({
 		<Link href={href}>
 			<span
 				className={cn(
-					"transition-all hover:opacity-90 text-light",
+					"transition-all hover:opacity-90 text-dark font-semibold",
 					filled
-						? "bg-primary px-4 py-2 rounded-lg"
+						? "bg-primary px-4 py-2 rounded-lg text-light"
 						: "hover:bg-primary rounded-lg px-2 py-1",
 					mobile && "text-lg",
 				)}
