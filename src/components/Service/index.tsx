@@ -49,12 +49,13 @@ const Service = () => {
 					Zostaw nam swoje problemy
 				</p>
 				<div className="flex flex-col md:flex-row gap-[60px] mt-10">
-					<div className="md:w-1/2 flex flex-col items-baseline gap-6">
+					<div
+						className="md:w-1/2 flex flex-col items-baseline gap-6"
+						data-aos="fade-right"
+					>
 						{data.map(({ id, title }, index) => (
 							<button
-								data-aos="fade-right"
-								data-aos-delay={index * 200}
-								key={id}
+								key={id + index}
 								onClick={() => handleClick(id)}
 								className={cn(
 									"p-[10px] rounded-xl text-light text-xl md:text-3xl font-bold",
