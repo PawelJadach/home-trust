@@ -75,7 +75,7 @@ const Contact = () => {
 									665 668 027 - Marek
 								</p>
 								<p className="text-light">
-									665 668 027 - Elżbieta
+									692 747 024 - Elżbieta
 								</p>
 							</div>
 						</div>

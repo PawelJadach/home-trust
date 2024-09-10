@@ -15,19 +15,20 @@ const Testimonials = () => {
 					Staramy się by każdy klient był zadowolony
 				</p>
 			</div>
-			<div className="flex flex-col md:flex-row items-center justify-center gap-8">
+			<div className="flex flex-col md:flex-row items-start justify-center gap-8">
 				<div
 					className="rounded-lg shadow-xl flex items-center flex-col gap-8 p-7 w-[300px]"
 					data-aos="zoom-in"
 				>
 					<TopIcon />
 					<p className="text-dark text-center">
-						“Lorem ipsum dolor sit amet consectetur. Diam magna
-						luctus odio risus dolor nullam faucibus adipiscing
-						egestas. Ultrices nulla at aliquam egestas malesuada
-						nullam volutpat pharetra orci.”
+						“Obsługa na najwyższym poziomie. Pan Marek przeprowadził
+						nas przez cały proces zakupu nieruchomości - od jej
+						prezentacji, poprzez uzyskanie kredytu, a następnie
+						finalizację transakcji w kancelarii notarialnej. Polecam
+						!”
 					</p>
-					<p className="italic">Jan Kowalski</p>
+					<p className="italic">Artur Błuś</p>
 				</div>
 				<div
 					className="rounded-lg shadow-xl flex items-center flex-col gap-8 p-7 w-[300px]"
@@ -36,12 +37,13 @@ const Testimonials = () => {
 				>
 					<TopIcon />
 					<p className="text-dark text-center">
-						“Lorem ipsum dolor sit amet consectetur. Diam magna
-						luctus odio risus dolor nullam faucibus adipiscing
-						egestas. Ultrices nulla at aliquam egestas malesuada
-						nullam volutpat pharetra orci.”
+						“Współpraca z Elżbietą to sama przyjemność. Pełen
+						profesjonalizm, wzorcowa komunikacja, ogrom wiedzy
+						merytorycznej połączonej z doświadczeniem dają gwarancję
+						doskonałej obsługi na każdym etapie procesu kredytowego
+						i zakupu nieruchomości. Polecam.”
 					</p>
-					<p className="italic">Jan Kowalski</p>
+					<p className="italic">Adrian Krysztofiak</p>
 				</div>
 				<div
 					className="rounded-lg shadow-xl flex items-center flex-col gap-8 p-7 w-[300px]"
@@ -50,12 +52,10 @@ const Testimonials = () => {
 				>
 					<TopIcon />
 					<p className="text-dark text-center">
-						“Lorem ipsum dolor sit amet consectetur. Diam magna
-						luctus odio risus dolor nullam faucibus adipiscing
-						egestas. Ultrices nulla at aliquam egestas malesuada
-						nullam volutpat pharetra orci.”
+						“Polecam współpracę. Cały proces przebiega sprawnie, a
+						Pani Elżbieta wspiera klienta na każdym etapie.”
 					</p>
-					<p className="italic">Jan Kowalski</p>
+					<p className="italic">Magdalena Pamuła</p>
 				</div>
 			</div>
 		</div>

@@ -16,7 +16,7 @@ const About = () => {
 				</div>
 				<div className="space-y-5 xl:w-1/2">
 					<h2
-						className="text-light"
+						className="text-light leading-relaxed tracking-wide"
 						data-aos="fade-left"
 						data-aos-delay="200"
 					>
@@ -28,27 +28,43 @@ const About = () => {
 						data-aos-delay="400"
 					/>
 					<p
-						className="text-light"
+						className="text-light tracking-wide"
 						data-aos="fade-left"
 						data-aos-delay="600"
 					>
-						Szukasz nieruchomości do celów prywatnych? Sprzedajesz
-						dom, mieszkanie lub grunty? Potrzebujesz lokalu
-						komercyjnego pod własną działalność? A może jesteś
-						inwestorem, który chciałby poszerzyć swoje portfolio?{" "}
-						<b>Porozmawiaj z nami – pomożemy!</b>
+						HOME TRUST - jednym z nadrzędnych fundamentów, na
+						których budowana jest nasza marka to <b>ZAUFANIE</b>. Na
+						nim opieramy współpracę z naszymi klientami i
+						kształtujemy relacje, które bardzo często są relacjami
+						długofalowymi.
 					</p>
 					<p
-						className="text-light"
+						className="text-light tracking-wide"
 						data-aos="fade-left"
 						data-aos-delay="800"
 					>
-						<b>
-							Jesteśmy specjalistami z wieloletnim doświadczeniem
-						</b>{" "}
-						a wrocławski rynek nieruchomości znamy od podszewki.
-						Przeprowadzamy nawet najbardziej skomplikowane
-						transakcje tak abyście czuli się pewnie i bezpiecznie.
+						Nie ma dla nas rzeczy <b>niemożliwych</b> – zawsze
+						uparcie dążymy do celu i szukamy rozwiązań, które dla
+						innych mogą wydawać się niemożliwe. To one sprawiają, że
+						stajemy się coraz lepsi, skuteczniejsi i jeszcze
+						bardziej kreatywni. Daje nam to ogromną satysfakcję.
+					</p>
+					<p
+						className="text-light tracking-wide"
+						data-aos="fade-left"
+						data-aos-delay="900"
+					>
+						Elżbieta Mrowiec i Marek Bednarczuk – jesteśmy
+						założycielami <b>HOME TRUST</b>. Nasza współpraca od
+						początku opierała się na <b>ZAUFANIU</b>, rzetelności i
+						lojalności. Klient i jego potrzeby są dla nas
+						priorytetem. Działalność oparta jest licencjami
+						zawodowymi w zakresie pośrednictwa w obrocie
+						nieruchomościami wydanymi przez Polską Federację Rynku
+						Nieruchomości. Stale dążymy do profesjonalizmu i
+						wysokiej jakości świadczonych przez nas usług. Na każdym
+						etapie klient ma nasze wsparcie i pomoc. Może nam{" "}
+						<b>ZAUFAĆ</b>.
 					</p>
 				</div>
 			</div>
