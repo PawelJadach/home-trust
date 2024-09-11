@@ -45,14 +45,14 @@ const Service = () => {
 				<p
 					className="text-light max-w-xl text-center"
 					data-aos="fade-right"
-					data-aos-delay="400"
+					data-aos-delay="300"
 				>
 					Współpracę rozpoczynamy od ustalenia oczekiwań i opracowania
 					strategii marketingowej. Pierwsze spotkanie to najważniejszy
 					etap.
 				</p>
 				<div className="grid items-center md:grid-cols-2 gap-8 md:gap-[60px] mt-10">
-					<div>
+					<div data-aos="fade-right" data-aos-delay="400">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="524.67004"
@@ -252,7 +252,11 @@ const Service = () => {
 						</svg>
 					</div>
 					<div>
-						<p className="text-light">
+						<p
+							className="text-light"
+							data-aos="fade-left"
+							data-aos-delay="200"
+						>
 							Pracujemy w oparciu o umowę na wyłączność. Relacja
 							między nami a klientem jest wiążąca i tylko taki
 							model biznesowy u nas funkcjonuje. Klauzula
@@ -262,34 +266,42 @@ const Service = () => {
 							współpracy:
 						</p>
 						<ul className="text-light mt-6 text-sm ml-4 space-y-3 list-disc list">
-							<li>
+							<li data-aos="fade-left" data-aos-delay="300">
 								Oszacowanie wartości nieruchomości i ocena jej
 								potencjału
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="350">
 								Przygotowanie i ocena dokumentacji potrzebnej do
 								przeprowadzenia transakcji
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="400">
 								Home Staging – przygotowanie nieruchomości do
 								sesji zdjęciowej
 							</li>
-							<li>Profesjonalna sesja zdjęciowa</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="450">
+								Profesjonalna sesja zdjęciowa
+							</li>
+							<li data-aos="fade-left" data-aos-delay="500">
 								Ekspozycja oferty na wiodących portalach, w
 								Social Mediach, a także wśród innych pośredników
 							</li>
-							<li>Prezentacja nieruchomości</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="550">
+								Prezentacja nieruchomości
+							</li>
+							<li data-aos="fade-left" data-aos-delay="600">
 								Pomoc w uzyskaniu finansowania i skompletowaniu
 								dokumentów
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="650">
 								Rzetelna obsługa i wsparcie w trakcie procesu
 								sprzedaży, a także po.
 							</li>
 						</ul>
-						<p className="text-light mt-12 font-bold">
+						<p
+							data-aos="fade-left"
+							data-aos-delay="700"
+							className="text-light mt-12 font-bold"
+						>
 							To właśnie ZAUFANIE…
 						</p>
 					</div>

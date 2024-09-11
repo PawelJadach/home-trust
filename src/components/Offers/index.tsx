@@ -116,7 +116,9 @@ const Offers = () => {
 					href="https://www.otodom.pl/pl/firmy/biura-nieruchomosci/home-trust-ID9623847?search%5Bcategory_id%5D=2"
 					target="_blank"
 				>
-					<Button>Zobacz wszystkie oferty</Button>
+					<Button className="bg-secondary">
+						Zobacz wszystkie oferty
+					</Button>
 				</a>
 			</div>
 		</div>
