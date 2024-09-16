@@ -12,7 +12,7 @@ export const config: Config = {
 		root: {
 			title: "Home Trust",
 			description: "Kup, sprzedaj lub wynajmij nieruchomość",
-			metadataBase: new URL("https://home-trust.vercel.app/"),
+			metadataBase: new URL("https://www.hometrust.pl/"),
 			openGraph: {
 				images: "/opengraph-image.png",
 			},

@@ -11,7 +11,7 @@ const Team = () => {
 					data-aos-delay="200"
 				/>
 				<p data-aos="fade-right" data-aos-delay="400">
-					Jesteśmy tu po to żeby Ci pomóc
+					Jesteśmy po to, aby Ci pomóc
 				</p>
 			</div>
 			<div className="flex flex-col md:flex-row gap-[30px] md:gap-[70px] items-center justify-center">

@@ -12,7 +12,7 @@ const Testimonials = () => {
 					data-aos-delay="200"
 				/>
 				<p data-aos="fade-right" data-aos-delay="400">
-					Staramy się by każdy klient był zadowolony
+					Klienci, którzy nam zaufali:
 				</p>
 			</div>
 			<div className="flex flex-col md:flex-row items-start justify-center gap-8">
